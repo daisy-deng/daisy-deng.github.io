@@ -26,6 +26,7 @@
 	position: relative;
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
+	top: 100px;
 }
 
 .sp-slide {
