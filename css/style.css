@@ -564,11 +564,12 @@ section#services {
 .navbar-brand { /* name */
     float: left;
     position: absolute;
-    top: 35px;
-    left: 20px;
-    height: 50px;
+    top: 21px;
+    left: 10px;
+    height: 10px;
+    width: 25%;
     padding: 0px 10px;
-    font-size: 35px;
+    font-size: 10px;
     line-height: 20px;
 }
  
@@ -646,14 +647,14 @@ header.page-header .main-menu.minified{
 }
  
 .slider{
-	overflow: hidden;
+	overflow: visible;
 	background-color: #2A2B32;
 }
 
 .main-slides .img-overlay{
 	position: relative;
-	width: 100%;
 	height: 100%;
+	width: 100%;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -669,13 +670,13 @@ header.page-header .main-menu.minified{
 	width: 100px;
 }
 */
-
+/*
 .sp-image{
 	display: inline-block;
 	max-height: 100%;
 	height: auto;
 }
-
+*/
 /*-------  add end */
 
 
@@ -903,6 +904,7 @@ header.page-header .main-menu.minified{
 	/*margin: 10px;*/
         padding: 10px;
 }
+
 
 .portfolio-items .portfolio-item img{
 	position: relative;

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<title>Portfolio</title>
+<link rel="stylesheet" href="../../../css/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../../css/portfolio/style.min.css">
+<link rel="stylesheet" href="../../../css/portfolio/portfolio.css">
+
+<style>
+* { margin: 0; padding: 0;}
+ul { list-style-type: none;}
+.dowebok { text-align: center; width: 70%; height: 100%; margin: 0 auto;}
+</style>
+</head>
+
+<body>
+
+<div class="dowebok slider--animated portfolio" data-slidizle>
+	<ul data-slidizle-content>
+		<li style="background-image: url('./01.jpg')"></li>
+		<li style="background-image: url('./02.jpg')"></li>
+		<li style="background-image: url('./03.jpg')"></li>
+		<li style="background-image: url('./04.jpg')"></li>
+		<li style="background-image: url('./05.jpg')"></li>
+	</ul>
+
+	<div data-slidizle-next>
+		<i class="fa fa-arrow-right"></i>
+	</div>
+	<div data-slidizle-previous>
+		<i class="fa fa-arrow-left"></i>
+	</div>
+
+	<ul data-slidizle-navigation>
+		<li class="slider-navigation-item" style="background-image:url('./01.jpg')"></li>
+		<li class="slider-navigation-item" style="background-image:url('./02.jpg')"></li>
+		<li class="slider-navigation-item" style="background-image:url('./03.jpg')"></li>
+		<li class="slider-navigation-item" style="background-image:url('./04.jpg')"></li>
+		<li class="slider-navigation-item" style="background-image:url('./05.jpg')"></li>
+	</ul>
+
+	<ul data-slidizle-navigation></ul>
+</div>
+
+<script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/jquery.slidizle.js"></script>
+<script>
+$(function() {
+	$('.dowebok').slidizle({
+		loop: true
+	});
+}); 
+</script>
+
+</body>
+</html>
