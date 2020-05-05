@@ -10,7 +10,9 @@
 	position: relative;
 	margin: 0 auto;
 	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
+	margin: 0px 0px 100px 0px; /*between sctions */
 }
 
 .sp-slides-container {
@@ -19,14 +21,15 @@
 
 .sp-mask {
 	position: relative;
-	overflow: hidden;
+	overflow: visible; /* home pho */
 }
 
 .sp-slides {
 	position: relative;
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
-	top: 100px;
+        top: 100px;
+	height: 100%;
 }
 
 .sp-slide {

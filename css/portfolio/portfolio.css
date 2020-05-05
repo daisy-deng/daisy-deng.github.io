@@ -1,0 +1,14 @@
+
+
+.portfolio {
+  position: absolute;
+  text-align: center;
+
+}
+
+.portfolio-img{
+  position: absolute;
+  width: 100%;
+  overflow: visible;
+
+}
