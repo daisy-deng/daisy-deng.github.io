@@ -647,14 +647,12 @@ header.page-header .main-menu.minified{
 }
  
 .slider{
-	overflow: visible;
+	overflow: hidden;
 	background-color: #2A2B32;
 }
 
 .main-slides .img-overlay{
 	position: relative;
-	height: 100%;
-	width: 100%;
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -897,12 +895,14 @@ header.page-header .main-menu.minified{
 }
 
 .portfolio-items .portfolio-item{
-	width: 33%;
+	width: 80%;
 	height: auto;
 	position: center; 
 	overflow: hidden;
 	/*margin: 10px;*/
         padding: 10px;
+        margin: 0 10% 100px 10%;
+        text-align: center;
 }
 
 
@@ -1533,11 +1533,16 @@ footer ul li a i{
     margin-bottom: 5px;
   }
  
-  .portfolio-items .portfolio-item {
-    height: 280px;
+  .portfolio-items .portfolio-item { /*profolio display*/
+    /*height: 280px;*/
+    height: 500px; 
     overflow: hidden;
     position: relative;
-    width: 33.33331%;
+    /*width: 33.33331%;*/
+    width: 80%;
+   /* background-color: #FF9FF0;*/
+    margin: 0 10% 100px 10%;
+    text-align: center;
   }
 }
  
@@ -1596,7 +1601,11 @@ footer ul li a i{
     height: 280px;
     overflow: hidden;
     position: relative;
-    width: 33.33331%;
+    /*width: 33.33331%;*/
+    width: 80%;
+    background-color: #FF9FF0;
+    margin: 0 10% 100px 10%;
+    text-align: center;
   }
 }
  
@@ -1721,7 +1730,9 @@ footer ul li a i{
     height: 280px;
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 80%;
+    margin: 0 10% 100px 10%;
+    text-align: center;
   }
   .service-wrapper > div{
     margin-bottom: 50px;
@@ -1738,7 +1749,9 @@ footer ul li a i{
 @media only screen and (min-width: 480px) and (max-width: 767px) {
  
   .portfolio-items .portfolio-item {
-    width: 50%;
+    width: 80%;
+    margin: 0 10% 100px 10%;
+    text-align: center;
   }
 
 }
