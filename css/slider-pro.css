@@ -21,15 +21,14 @@
 
 .sp-mask {
 	position: relative;
-	overflow: visible; /* home pho */
+	overflow: hidden; /* home pho */
 }
 
 .sp-slides {
-	position: relative;
+	position: absolute;
 	-webkit-backface-visibility: hidden;
 	-webkit-perspective: 1000;
-        top: 100px;
-	height: 100%;
+        margin: 100px 0 0 0;
 }
 
 .sp-slide {

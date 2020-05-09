@@ -1,49 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
 <meta charset="utf-8">
 <title>Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content=""> 
-<meta name="Author" content=""> 
+<link rel="stylesheet" href="../../../css/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="../../../css/portfolio/style.min.css">
+<link rel="stylesheet" href="../../../css/portfolio/portfolio.css">
 
-<link rel="stylesheet" href="../../../css/portfolio.css">
-<link rel="stylesheet" href="../../../css/normalize.css">
-<link rel="stylesheet" href="../../../css/bootstrap.min.css">
-<link rel="stylesheet" href="../../../elegant_font/style.css" />
-<link rel="stylesheet" href="../../../css/font-awesome/css/font-awesome.min.css" />
-
-<link rel="stylesheet" href="../../../css/magnific-popup.css">
-<link rel="stylesheet" href="../../../css/slider-pro.css">
-<link rel="stylesheet" href="../../../css/owl.carousel.css">
-<link rel="stylesheet" href="../../../css/owl.theme.css">
-<link rel="stylesheet" href="../../../css/owl.transitions.css">
-<link rel="stylesheet" href="../../../css/animate.css">
-<link rel="stylesheet" href="../../../elegant_font/style.css"> 
-<link rel="stylesheet" href="../../../css/style.css">
-<link rel="stylesheet" href="../../../js/portfolio.js">
-
+<style>
+* { margin: 0; padding: 0;}
+ul { list-style-type: none;}
+.dowebok { width: 80%; height: 600px; margin: 20px 10% 0 10%;}
+</style>
 </head>
+
 <body>
 
-	<!-- <div class="portfolio-works wow fadeIn" data-wow-duration="2s"> -->
-	    <div class="img-portfolio"> 
-                  <!--<img src="./01.jpg" class="img-portfolio-img" alt="">
-                    -->
-                      <img class="img-portfolio-img" src="./02.jpg" alt="">
-                      <!--<div class="portfolio-details-wrapper">
-                          <div class="portfolio-details">
-                              <div class="portfolio-meta-btn">
-                                  <ul class="work-meta">
-				      <li class="lighbox"><a href="./03.jpg" class="featured-work-img"><i class="fa fa-search-plus"></i></a></li> 
-   
-	                          </ul>
-                             </div>
-                         </div>
-		      </div> -->
-	    </div>
-	    <!--</div> -->
+<div class="dowebok slider--animated portfolio" data-slidizle>
+	<ul data-slidizle-content>
+		<li style="background-image: url('./01.jpg')"></li>
+		<li style="background-image: url('./02.jpg')"></li>
+		<li style="background-image: url('./03.jpg')"></li>
+		<li style="background-image: url('./04.jpg')"></li>
+		<li style="background-image: url('./05.jpg')"></li>
+		<li style="background-image: url('./06.jpg')"></li>
+	</ul>
+
+	<div data-slidizle-next>
+		<i class="fa fa-arrow-right"></i>
+	</div>
+	<div data-slidizle-previous>
+		<i class="fa fa-arrow-left"></i>
+	</div>
+
+	<ul data-slidizle-navigation>
+		<li class="slider-navigation-item" style="background-image:url('./01.jpg')"></li>
+		<li class="slider-navigation-item" style="background-image:url('./02.jpg')"></li>
+		<li class="slider-navigation-item" style="background-image:url('./03.jpg')"></li>
+		<li class="slider-navigation-item" style="background-image:url('./04.jpg')"></li>
+		<li class="slider-navigation-item" style="background-image:url('./05.jpg')"></li>
+		<li class="slider-navigation-item" style="background-image:url('./06.jpg')"></li>
+	</ul>
+
+	<ul data-slidizle-navigation></ul>
+</div>
+
+<script src="../../../js/jquery.min.js"></script>
+<script src="../../../js/jquery.slidizle.js"></script>
+<script>
+$(function() {
+	$('.dowebok').slidizle({
+		loop: true
+	});
+}); 
+</script>
+
 </body>
 </html>
-
-
