@@ -11,7 +11,8 @@ body {
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background: #20181f;
+  /*background: #20181f;*/
+  background: #FFFFFF;
 }
 
 html{
@@ -608,7 +609,7 @@ header.page-header .main-menu{
 .main-menu .navbar-nav li{
 	display:inline;
 }
-.main-menu .navbar-nav li a{
+.main-menu .navbar-nav li a{ /*menu color*/
     font-size: 13px;
     font-weight: 700;
     color: #ececec;
@@ -623,7 +624,10 @@ header.page-header .main-menu{
     text-transform: uppercase;
 }
 
-.main-menu .navbar-nav li a:hover, .main-menu .navbar-nav li.active a{ background-color: rgb(185, 39, 99); color: #ffffff;
+.main-menu .navbar-nav li a:hover, .main-menu .navbar-nav li.active a{ 
+    /*background-color: rgb(185, 39, 99);*/
+    background-color: #fce18d;
+    color: #ffffff;
 }
 
 .main-menu .navbar-nav li a:focus{
@@ -711,7 +715,8 @@ header.page-header .main-menu.minified{
 }
 
 .slider .sp-button {
-  border: 1px solid #b92763;
+ /* border: 1px solid #b92763;*/ 
+  border: 1px solid #626262; /*circule colour*/
   border-radius: 50%;
   box-sizing: border-box;
   cursor: pointer;
